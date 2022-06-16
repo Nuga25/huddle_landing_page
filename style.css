@@ -1,0 +1,369 @@
+body{
+    margin: 0;
+    font-size: 18px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+img{
+    width: 70%;
+}
+
+.huddle_logo{
+    margin-top: 10px;
+    width: 180px;
+    height: 30px;
+    padding-left: 50px;
+}
+
+#huddle_logo2{
+    width: 180px;
+    height: 30px;
+}
+
+#logo{
+    width: 10px;
+    margin-right: 0;
+}
+
+#img1{
+    width: 90%;
+    height: 90%;
+}
+
+header{
+    background: hsl(193, 100%, 96%);
+    background-image: url(images/bg-hero-desktop.svg);
+}
+
+#header_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    color: hsl(192, 100%, 9%);
+}
+
+#header_box1{
+    flex: 40%;
+    width: 40%;
+    padding: 50px;
+}
+
+.btn1{
+    padding: 15px;
+    background: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    border: none;
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+    width: 70%;
+    cursor: pointer;
+}
+
+.btn2{
+    padding: 15px;
+    background: white;
+    color: hsl(192, 100%, 9%);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+    float: right;
+    margin-right: 80px;
+    width: 20%;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+#header_box2{
+    flex: 60%;
+    width: 60%;
+    padding: 50px;
+}
+
+.main_container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    color: hsl(192, 100%, 9%);
+}
+
+#main_box1{
+    flex: 40%;
+    padding: 30px;
+}
+
+#main_box2{
+    flex: 40%;
+    padding: 30px;
+}
+
+.main_container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    color: hsl(192, 100%, 9%);
+}
+
+#main_box3{
+    flex: 40%;
+    padding: 30px;
+}
+
+#main_box4{
+    flex: 40%;
+    padding: 30px;
+}
+
+.main_container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    color: hsl(192, 100%, 9%);
+}
+
+#main_box5{
+    flex: 40%;
+    padding: 30px;
+}
+
+#main_box6{
+    flex: 40%;
+    padding: 30px;
+}
+
+.last_box{
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    padding: 20px;
+    background: white;
+    color: hsl(192, 100%, 9%);
+}
+
+.btn3{
+    padding: 15px;
+    background: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    border: none;
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+footer div{
+    font-size: 15px;
+    background: hsl(192, 100%, 9%);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 180px;
+    color: white;
+}
+
+.footer1{
+    flex: 25%;
+    padding: 30px;
+}
+
+.footer2{
+    flex: 25%;
+    padding: 30px;
+}
+
+.footer3{
+    flex: 25%;
+    padding: 30px;
+}
+
+.footer4{
+    flex: 25%;
+    padding: 40px;
+}
+
+ion-icon{
+    padding: 10px;
+}
+
+.copyright{
+    text-align: right;
+    color: white;
+}
+
+@media only screen and (max-width:1030px){
+    body{
+        font-size: 15px;
+    }
+    header{
+        background-image: url(images/bg-hero-mobile.svg);
+    }
+    .huddle_logo{
+        padding-left: 13px;
+    }
+    #header_container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+    #header_box1{
+        padding: 5px;
+    }
+    #header_box2{
+        padding: 5px;
+    }
+    .main_container1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .main_container2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .main_container3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .last_box{
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        margin-left: 15%;
+        margin-left: 15%;
+        margin-bottom: -15%;
+        padding: 5px;
+        position: absolute;
+    }
+    .footer{
+        flex-direction: column;
+        margin: 0px;
+        margin-top: 130px;
+        padding: 5px;
+    }
+    .footer1{
+        padding: 5px;
+        text-align: left;
+    }
+    .footer2{
+        padding: 5px;
+        margin-left: 0px;
+        text-align: left;
+        width: 100%;
+    }
+    .footer3{
+        padding: 5px;
+        margin-left: 0px;
+        text-align: left;
+        width: 100%;
+    }
+    .footer4{
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn1{
+        width: 90%;
+    }
+    .btn2{
+        margin-right: 5px;
+        width: 40%;
+        height: 30px;
+        padding: 3px;
+    }
+    .btn3{
+        width: 70%;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .huddle_logo{
+        width: 90px;
+    }
+    .last_box{
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        margin-left: 15%;
+        margin-left: 15%;
+        padding: 5px;
+        position: absolute;
+    }
+    .footer{
+        flex-direction: column;
+        margin: 0px;
+        margin-top: 150px;
+        padding: 5px;
+    }
+}
