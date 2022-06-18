@@ -249,9 +249,11 @@ ion-icon{
 @media only screen and (max-width:1030px){
     body{
         font-size: 15px;
+        width: 100%;
     }
     header{
         background-image: url(images/bg-hero-mobile.svg);
+        width: 100%;
     }
     .huddle_logo{
         padding-left: 13px;
@@ -259,12 +261,12 @@ ion-icon{
     #header_container{
         flex-direction: column;
        
-       
+        width: 100%;
         text-align: center;
         margin: 0;
     }
     #header_box1{
-        padding: 5px;
+        padding: 10px;
         flex: 50%;
         width: 100%;
     }
@@ -335,11 +337,11 @@ ion-icon{
         align-items: center;
     }
     .btn1{
-        width: 70%;
+        width: 60%;
     }
     .btn2{
         margin-right: 5px;
-        width: 40%;
+        width: 30%;
         height: 30px;
         padding: 3px;
     }
@@ -353,7 +355,7 @@ ion-icon{
 
 @media only screen and (max-width:320px){
     .huddle_logo{
-        width: 90px;
+        width: 30%;
     }
     .last_box{
         align-items: center;
